@@ -13,6 +13,7 @@ const items = [
 	{ label: 'Kleuren', alias: 'kleuren', hash: '#kleuren', directory: './components/kleuren' },
 	{ label: 'Knoppen', alias: 'knoppen', hash: '#knoppen', directory: './components/knoppen' },
 	{ label: 'Lijsten', alias: 'lijsten', hash: '#lijsten', directory: './components/lijsten' },
+	{ label: 'coding-rules', alias: 'coding-rules', hash: '#coding-rules', directory: './components/coding-rules' },
 	// { label: 'Media', alias: 'media', hash: '#media', directory: './components/media' },
 	// { label: 'Navigatie', alias: 'navigatie', hash: '#navigatie', directory: './components/navigatie' },
 	// { label: 'Reclame', alias: 'reclame', hash: '#reclame', directory: './components/reclame' }

@@ -16,7 +16,8 @@ const routes = [
 	{ title: 'lijsten', alias: 'lijsten', hash: '#lijsten', directory: './components/lijsten' },
 	{ title: 'media', alias: 'media', hash: '#media', directory: './components/media' },
 	{ title: 'navigatie', alias: 'navigatie', hash: '#navigatie', directory: './components/navigatie' },
-	{ title: 'reclame', alias: 'reclame', hash: '#reclame', directory: './components/reclame' }
+	{ title: 'reclame', alias: 'reclame', hash: '#reclame', directory: './components/reclame' },
+	{ title: 'coding-rules', alias: 'coding-rules', hash: '#coding-rules', directory: './components/coding-rules' }
 ];
 
 const locationHandler = async () => {
