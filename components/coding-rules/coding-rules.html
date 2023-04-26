@@ -25,6 +25,25 @@
                 </pre>
             <p>Bronnen:</p>
             <p>https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/</p>
+        
+            <h2>Maak gebruik van layout shift om zo geen problemen te krijgen wegens rescaled img, videos, fonts etc etc.</h2>
+            <h3>Voorbeeld code:</h3>
+            <pre>
+                <code>
+                     style >
+                    img {
+                        width: 100%;
+                        height: auto;
+                        aspect-ratio: attr(width) / attr(height);
+                    }
+                    style/> 
+                    img src+"hero_image.jpg" alt+"" witdth+"500"
+                    height="500">
+                </code>
+                </pre>
+            <p>Bronnen:</p>
+            <p>https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/</p>
+            <p>https://web.dev/optimize-cls/</p>
         </li>
     </ul>
 </section>
